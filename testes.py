@@ -7,11 +7,11 @@ class TurmaTest(unittest.TestCase):
     def setUp(self):
         print('Teste', self._testMethodName, 'sendo executado...')
         self.alunos = []
-        self.alunos.append(Aluno('Joao', 'Pedro', 11))
-        self.alunos.append(Aluno('Maria', 'Silva', 7))
+        self.alunos.append(Aluno('Joao', 'Gabriel', 11))
+        self.alunos.append(Aluno('Maria', 'Santos', 7))
         self.alunos.append(Aluno('Carlos', 'Santos', 8))
         self.alunos.append(Aluno('Luisa', 'Fernandes', 9))
-        self.alunos.append(Aluno('Antonio', 'Oliveira', 6))
+        self.alunos.append(Aluno('Antonia', 'Oliveira', 6))
         self.turmaObject = Turma()
         self.turmaObject.cadastrarAlunos(self.alunos)
 
